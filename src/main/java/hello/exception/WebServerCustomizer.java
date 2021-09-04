@@ -26,7 +26,5 @@ public class WebServerCustomizer implements WebServerFactoryCustomizer<Configura
         //등록
         factory.addErrorPages(errorPage404, errorPage500, errorPageEx);
 
-
-
     }
 }
