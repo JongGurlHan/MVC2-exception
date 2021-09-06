@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Slf4j
 @Controller
-public class ErrorPageController {
+public class  ErrorPageController {
 
     //RequestDispatcher 상수로 정의되어 있음
     public static final String ERROR_EXCEPTION = "javax.servlet.error.exception";
